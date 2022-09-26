@@ -7,7 +7,15 @@ body{
     height: 620px;
     margin: auto;
     background-color: white;
-    border-radius: 3px;
+    border-radius: 10px;
+}
+.login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 10px;
+    background-color:  #f0f0f5;
+
 }
 h1{
     text-align: center;
@@ -41,6 +49,14 @@ input[type="button"]{
     background-color: wheat;
     color: white;
     font-size: 18px;
+}
+input:invalid{
+    animation: shake 300ms;
+}
+@keyframes shake{
+    25% { transform: translateX(4PX);}
+    50% { transform: translateX(-4PX);}
+    75% { transform: translateX(4PX);}
 }
 p{
     text-align: center;
