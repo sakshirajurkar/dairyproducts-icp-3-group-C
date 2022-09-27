@@ -45,7 +45,7 @@
 }
 
 .wishlist:hover{
-    background: red;
+    background: rgb(211, 95, 95);
     border-radius: 50%;
 }
 .nav-search-bar{
@@ -98,7 +98,7 @@ form.nav-search-bar::after {
 }
 
 .nav-sections {
-    background-color: #333;
+    background-color: #002E6E;
     border-radius: 5px;
     display: flex;
 }
@@ -135,51 +135,36 @@ form.nav-search-bar::after {
 
 .left-page{
     width: 600px;
-    padding: 100px;
-    padding-top: 120px;
-}
-
-.title{
-    padding: 10px;
+    padding: 50px;
 }
 
 .title b{
-    font-size: 50px;
-}
-
-.discription{
-    padding: 10px;
-
+    font-size: 40px;
 }
 
 .discription p{
-    font-size: 15px;
-}
-
-.buy-now-btn{
-    padding: 10px;
-
+    font-size: 20px;
 }
 
 .buy-now-btn button{
-    width: 120px;
     padding: 10px;
+    border-radius: 10px;
+    background-color: #002E6E;
     border: none;
-    border-radius: 20px;
-    color: #fff;
-    background-color: rgb(19, 211, 61);
-    letter-spacing: 0.1em;
-    font-size: 20px;
-    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.buy-now{
+    margin-left: 20px;
 }
 
 .buy-now-btn button:hover{
     cursor: pointer;
-    color: #333;
-    border-radius: 10px;
+    color: #002E6E;
+    border: 2px solid #002E6E;
     background-color: transparent;
-    border: 2px solid rgb(19, 211, 61);
-
 }
 
 .right-page{
@@ -198,7 +183,7 @@ form.nav-search-bar::after {
     background-size: 100% ;
     box-shadow: 0px 0px 8px 8px grey;
     border-radius: 10px;
-    animation: changeImage 30s linear infinite;
+    animation: changeImage 5s linear infinite;
 }
 
 @keyframes changeImage{
