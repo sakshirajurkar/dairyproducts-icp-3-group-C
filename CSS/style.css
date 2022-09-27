@@ -1,17 +1,17 @@
 /* Navbar 1 */
 
-.navbar-1{
+.navbar-1 {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     margin-top: 1%;
 }
 
-.nav-icons-1{
+.nav-icons-1 {
     width: 50px;
 }
 
-.nav-icons-1 img{
+.nav-icons-1 img {
     width: 35px;
     float: left;
     padding: 3px;
@@ -19,47 +19,48 @@
     margin-top: 5px;
 }
 
-.nav-icons-1 img:hover{
+.nav-icons-1 img:hover {
     cursor: pointer;
 }
 
-.nav-logo{
+.nav-logo {
     width: 200px;
 }
 
-.nav-icons-2{
+.nav-icons-2 {
     width: 150px;
     padding-left: 10px;
 }
 
-.nav-icons-2 img{
+.nav-icons-2 img {
     width: 35px;
-    padding:3px;
+    padding: 3px;
     margin: 2px;
     margin-top: 5px;
 
 }
 
-.nav-icons-2 img:hover{
+.nav-icons-2 img:hover {
     cursor: pointer;
 }
 
-.wishlist:hover{
+.wishlist:hover {
     background: rgb(211, 95, 95);
     border-radius: 50%;
 }
 
-.nav-search-bar{
+.nav-search-bar {
     width: 450px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}  
+}
+
 form.nav-search-bar input[type=text] {
     padding: 10px;
     font-size: 17px;
@@ -68,7 +69,7 @@ form.nav-search-bar input[type=text] {
     width: 80%;
     background: #eef6fa;
 }
-  
+
 form.nav-search-bar button {
     float: left;
     width: 20%;
@@ -80,11 +81,11 @@ form.nav-search-bar button {
     border-left: none;
     cursor: pointer;
 }
-  
+
 form.nav-search-bar button:hover {
     background: #0b7dda;
 }
-  
+
 form.nav-search-bar::after {
     content: "";
     clear: both;
@@ -93,7 +94,7 @@ form.nav-search-bar::after {
 
 /* Navbar 2 */
 
-.navbar-2{
+.navbar-2 {
     margin-top: 9px;
     margin: 2px;
 }
@@ -103,13 +104,13 @@ form.nav-search-bar::after {
     border-radius: 5px;
     display: flex;
 }
-  
+
 .sections {
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
 }
-  
+
 .sections a {
     color: white;
     text-decoration: none;
@@ -117,38 +118,38 @@ form.nav-search-bar::after {
     margin-left: 50px;
     margin-right: 50px;
 }
-  
+
 .sections a:hover {
     background-color: #111;
 }
 
 /*Home Page Started*/
 
-.home-page-container{
+.home-page-container {
     background: whitesmoke;
 }
 
-.home-page{
+.home-page {
     display: flex;
-    height: 500px;
+    height: 480px;
     padding: 50px;
     padding-top: 30px;
 }
 
-.left-page{
+.left-page {
     width: 600px;
     padding: 50px;
 }
 
-.title b{
+.title b {
     font-size: 40px;
 }
 
-.discription p{
+.discription p {
     font-size: 20px;
 }
 
-.buy-now-btn button{
+.buy-now-btn button {
     padding: 10px;
     border-radius: 10px;
     background-color: #002E6E;
@@ -158,51 +159,55 @@ form.nav-search-bar::after {
     font-weight: bold;
 }
 
-.buy-now{
+.buy-now {
     margin-left: 20px;
 }
 
-.buy-now-btn button:hover{
+.buy-now-btn button:hover {
     cursor: pointer;
     color: #002E6E;
     border: 2px solid #002E6E;
     background-color: transparent;
 }
 
-.right-page{
+.right-page {
     width: 600px;
     padding: 50px;
 }
 
-.right-page img{
+.right-page img {
     width: 500px;
 }
 
-.slide{
+.slide {
     width: 500px;
     height: 300px;
-    background-image: url("../Images/img/img-1.jpeg");
-    background-size: 100% ;
+    background-image: url("../Images/img/img-2.jpg");
+    background-size: 100%;
     box-shadow: 0px 0px 8px 8px grey;
     border-radius: 10px;
-    animation: changeImage 5s linear infinite;
+    animation: changeImage 10s linear infinite;
 }
 
-@keyframes changeImage{
-    0%{
-        background-image:  url("../Images/img/img-1.jpeg");
+@keyframes changeImage {
+    0% {
+        background-image: url("../Images/img/icecream1-slide.jpg");
     }
-    25%{
-        background-image:  url("../Images/img/img-2.jpg");
+
+    25% {
+        background-image: url("../Images/img/chocolate-home.jpg");
     }
-    50%{
-        background-image:  url("../Images/img/img-3.jpg");
+
+    50% {
+        background-image: url("../Images/img/ice-cream-slide.jpg");
     }
-    75%{
-        background-image:  url("../Images/img/img-4.jpg");
+
+    75% {
+        background-image: url("../Images/img/img-4.jpg");
     }
-    100%{
-        background-image:  url("../Images/img/img-5.jpeg");
+
+    100% {
+        background-image: url("../Images/img/curd-slide.jpg");
     }
 }
 
@@ -211,7 +216,149 @@ form.nav-search-bar::after {
 .home-footer {
     text-align: center;
 }
+
 .footer-text {
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.btn-1 {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #002E6E;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.card-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-1:hover {
+    box-shadow: 0px 0px 4px 2px black;
+    color: aliceblue;
+}
+
+.btn-start {
+    padding-left: 150px;
+}
+
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 65px;
+
+}
+
+.para-item {
+    font-size: 30px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+
+}
+
+.img-section-1 {
+    width: 550px;
+    border-radius: 45px;
+    padding: 20px;
+
+}
+
+.img-section-1:hover {
+    box-shadow: 0px 0px 2px 4px rgb(47, 48, 47);
+    border-radius: 45px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.img-card {
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0px 2px 2px 4px rgb(47, 48, 47);
+    border: none;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.product-para {
+    font-size: 25px;
+}
+
+.card-container-item {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+
+}
+
+.product-container {
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+
+
+}
+
+.img-card-footer {
+    max-width: 100%;
+    border: 1px solid #7fb53c;
+    padding: 0%;
+    margin-top: 10px;
+    border: none;
+}
+
+.img-card-footer:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 5px rgb(47, 48, 47);
+    cursor: pointer;
+}
+
+.card-pic {
+    padding: 10px;
+    text-align: center;
+    padding-left: 30px;
+    width: 300px;
+}
+
+.card-pic:hover {
+    box-shadow: 0px 0px 8px 5px rgb(47, 48, 47);
+    border-radius: 20px;
+}
+
+.font-size {
+    font-size: 23px;
 }
