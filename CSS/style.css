@@ -1,10 +1,10 @@
-/* Navbar 2 */
+/* Navbar 1 */
 
 .navbar-1{
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    margin-top: 0%;
+    margin-top: 1%;
 }
 
 .nav-icons-1{
@@ -14,8 +14,12 @@
 .nav-icons-1 img{
     width: 35px;
     float: left;
-    padding: 5px;
-    padding-left: 10px;
+    padding: 3px;
+    margin: 2px;
+    margin-top: 5px;
+}
+
+.nav-icons-1 img:hover{
     cursor: pointer;
 }
 
@@ -26,17 +30,24 @@
 .nav-icons-2{
     width: 150px;
     padding-left: 10px;
-    
 }
 
 .nav-icons-2 img{
     width: 35px;
-    padding: 5px;
-    padding-right: 10px;
+    padding:3px;
     margin: 2px;
+    margin-top: 5px;
+
+}
+
+.nav-icons-2 img:hover{
     cursor: pointer;
 }
 
+.wishlist:hover{
+    background: red;
+    border-radius: 50%;
+}
 .nav-search-bar{
     width: 450px;
     margin-left: auto;
@@ -44,9 +55,10 @@
 }
 
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-}
-  
+}  
 form.nav-search-bar input[type=text] {
     padding: 10px;
     font-size: 17px;
@@ -82,54 +94,128 @@ form.nav-search-bar::after {
 
 .navbar-2{
     margin-top: 9px;
+    margin: 2px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.nav-sections {
     background-color: #333;
+    border-radius: 5px;
+    display: flex;
 }
   
-li {
-    float: left;
+.sections {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
 }
   
-li a {
-    display: block;
+.sections a {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
   
-li a:hover {
+.sections a:hover {
     background-color: #111;
 }
 
 /*Home Page Started*/
 
 .home-page-container{
-    border: 5px solid cyan;
+    background: whitesmoke;
 }
 
 .home-page{
-    border: 5px yellowgreen solid ;
     display: flex;
     height: 600px;
     padding: 50px;
 }
 
 .left-page{
-    border: 5px red solid ;
     width: 600px;
+    padding: 100px;
+    padding-top: 120px;
+}
+
+.title{
+    padding: 10px;
+}
+
+.title b{
+    font-size: 50px;
+}
+
+.discription{
+    padding: 10px;
+
+}
+
+.discription p{
+    font-size: 15px;
+}
+
+.buy-now-btn{
+    padding: 10px;
+
+}
+
+.buy-now-btn button{
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(19, 211, 61);
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.buy-now-btn button:hover{
+    cursor: pointer;
+    color: #333;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(19, 211, 61);
 
 }
 
 .right-page{
-    border: 5px rgb(37, 12, 151) solid ; 
     width: 600px;
     padding: 50px;
+}
+
+.right-page img{
+    width: 500px;
+}
+
+.slide{
+    width: 500px;
+    height: 300px;
+    background-image: url("../Images/img/img-1.jpeg");
+    background-size: 100% ;
+    box-shadow: 0px 0px 8px 8px grey;
+    border-radius: 10px;
+    animation: changeImage 30s linear infinite;
+}
+
+@keyframes changeImage{
+    0%{
+        background-image:  url("../Images/img/img-1.jpeg");
+    }
+    25%{
+        background-image:  url("../Images/img/img-2.jpg");
+    }
+    50%{
+        background-image:  url("../Images/img/img-3.jpg");
+    }
+    75%{
+        background-image:  url("../Images/img/img-4.jpg");
+    }
+    100%{
+        background-image:  url("../Images/img/img-5.jpeg");
+    }
 }
 
