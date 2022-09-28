@@ -1,7 +1,7 @@
 .div-1 {
     height: 310px;
     width: 1250;
-    background-image: url(./../../Images/blue-dairy.png);
+    background-image: url(./../../Images/dairy-product.jpg);
     padding: 20px;
     padding-top: 30px;
     font-size: 25px;
@@ -63,18 +63,17 @@
 }
 .img-2{
     width: 200px;
-    margin: auto;
-    padding-left:50px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    margin: 45px;
+    
+    border-radius:20px;
+    
 }
 .img-3{
     width: 200px;
-    margin: auto;
-    padding-left:50px;
-    padding-top: 30px;
+    margin:45px;
     height: 220px;
-    padding-bottom: 20px;
+    border-radius: 20px;
+    
 }
 
 .img-card{
