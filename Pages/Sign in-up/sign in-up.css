@@ -1,6 +1,6 @@
 
 body{
-    background-image: url('./milk\ can\ bg\ img.jpg');
+    background-image: url(./bg\ img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'robot',sans-serif;
@@ -8,30 +8,33 @@ body{
 
 .signup-box{
     width: 360px;
-    height: 630px;
+    height: 600px;
     margin: auto;
     margin-right: 800px;
     border: black 2px solid;
     border-radius: 10px;
+    background-color: white;
 }
 
 .login-box{
     width: 360px;
-    height: 390px;
+    height: 470px;
     margin: auto;
     margin-top: 40px;
     margin-right: 800px;
     border: black 2px solid;
     border-radius: 10px;
+    background-color: white;
 }
 
 h1{
     text-align: center;
-    padding-top: 15px;
+    padding-top: 13px;
 }
 
 h4{
     text-align: center;
+    margin-bottom: 15px;
 }
 
 form{
@@ -42,32 +45,41 @@ form{
 form label{
     display: flex;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 16px;
+    font-style: italic;
 }
 
 form input{
     width: 300px;
-    height: 20px;
+    height: 5px;
     padding: 7px;
     border: none;
-    border: 1px solid grey;
-    border-radius: 6px;
+    border-bottom: 2px solid #002E6E;
     outline: none;
-    box-shadow: 3px 3px 10px 3px grey;
+    border-radius: 4px 4px;
+    background-color: white;
+    font-size: 16px;
 }
 
 .forgotbtn{
-    margin-left: 100px;
-    margin-top: 8px;
-    font-size: 17px;   
+    margin-left: 10px;
+    margin-top: 10px;
 }
-
+.signupherebtn{
+    font-size: 16px;
+    margin-left: 80px; 
+}
+.logos{
+    width: 35px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
 button{
     width: 320px;
-    height: 35px;
+    height: 38px;
     margin-top: 20px;
     border: none;
-    background-color:#0066ff;
+    background-color:#002E6E;
     color: white;
     font-size: 18px;
     border-radius: 10px;
@@ -76,7 +88,9 @@ button{
 }
 
 button:hover{
-    background-color:navy;
+    background-color:white;
+    border: 2px solid #002E6E;
+    color: black;
     transition: 0.5s;
 }
 
@@ -89,7 +103,3 @@ p{
     margin-right: 670px;
 }
 
-.signupherebtn{
-    font-size: 15px;
-    margin-left: 30px; 
-}
