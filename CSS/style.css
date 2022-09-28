@@ -21,10 +21,8 @@ body {
 }
 
 .nav-name {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
     padding-left: 20px;
-    color: #4428aa;
-    font-size: 40px;
 }
 
 .nav-name img{
@@ -403,3 +401,56 @@ h1 {
 .font-size {
     font-size: 23px;
 }
+
+/*Footer*/
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    cursor: pointer;
+}
+
+.btn-container {
+    margin-left: 85px;
+}
+
+
+.margin {
+    margin-left: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.subs {
+    width: 290px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.social-handles {
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    width: 38px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.designer {
+    text-align: center;
+    font: caption;
+}
+
