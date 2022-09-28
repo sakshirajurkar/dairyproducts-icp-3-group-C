@@ -1,7 +1,7 @@
 .div-1 {
     height: 310px;
     width: 1250;
-    background-image: url(./../../Images/blue-dairy.png);
+    background-image: url(./../../Images/about-img/blue-dairy.png);
     padding: 20px;
     padding-top: 30px;
     font-size: 25px;
@@ -73,7 +73,6 @@
     margin: auto;
     padding-left:50px;
     padding-top: 30px;
-    height: 220px;
     padding-bottom: 20px;
 }
 
