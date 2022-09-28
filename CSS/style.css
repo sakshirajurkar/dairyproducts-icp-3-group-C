@@ -1,4 +1,4 @@
-body{
+body {
     background: whitesmoke;
 }
 
@@ -12,13 +12,24 @@ body{
     margin-top: 1%;
 }
 
+.nav-logo {
+    padding-left: 50px;
+}
+
+.nav-logo-img {
+    width: 62px;
+    margin-top: 0%;
+}
 
 .nav-name {
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-   font-style: italic;
-   padding-left: 120px;
-   color: #26d40e;
-   font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+    color: #4428aa;
+    font-size: 40px;
+}
+
+.nav-name img{
+    width: 250px;
 }
 
 .nav-icons-2 {
@@ -143,7 +154,8 @@ form.nav-search-bar::after {
     display: flex;
     height: 480px;
     padding: 50px;
-    padding-top: 30px;
+    padding-top: 5px;
+    margin-top: 0%;
 }
 
 .left-page {
@@ -246,6 +258,7 @@ form.nav-search-bar::after {
     font-weight: bold;
 
 }
+
 .card-btn {
     display: flex;
     justify-content: space-between;
@@ -271,11 +284,12 @@ form.nav-search-bar::after {
 .para-item {
     font-size: 40px;
 }
-.font-text-size{
+
+.font-text-size {
     font-size: 20px;
 }
 
-.section-1-div{
+.section-1-div {
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -328,8 +342,23 @@ form.nav-search-bar::after {
 
 }
 
+.yt-vid {
+    width: 1250px;
+    height: 630px;
+    padding: 50px;
+    margin: 10px;
+
+}
+
+.iframe {
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
 h1 {
     font-size: 50px;
+
 }
 
 .product-para {
