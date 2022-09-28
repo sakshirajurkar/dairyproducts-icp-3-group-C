@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+      * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 10px;
+    box-shadow: 3px -5px 10px 3px gainsboro ;
+
+  }
+  
+  button
+  {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    padding-left: 25px ;
+    padding-right: 25px;
+  }
+  
+  button:hover {
+    background-color: #39ac39;
+
+
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px ;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div style="text-align:center">
+      <h2 style="font-size: 50px;"><b>Contact Us</b></h2>
+      <p style="font-size:30px ;">calls us any time:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="dairy.png" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname" style="font-size: 20px;">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required/>
+          <label for="lname"style="font-size: 20px;">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.. "required/>
+
+          <label for="lname"style="font-size: 20px;">Email</label>
+          <input type="text" id="lname" name="Email" placeholder=" Email address.."required/><br>
+        
+          
+          <label for="country"style="font-size: 20px;">Country</label>
+          <select id="country" name="country"required/>
+            <option>Choose your country</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="India">India</option>
+            <option value="France">France</option>
+            <option value="Brazil">Brazil</option>
+
+          </select>
+          <label for="subject"style="font-size: 20px;">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"required/></textarea>
+          <button type="submit">submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
