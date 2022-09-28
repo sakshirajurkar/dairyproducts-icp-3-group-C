@@ -1,3 +1,8 @@
+body {
+    background: whitesmoke;
+}
+
+
 /* Navbar 1 */
 
 .navbar-1 {
@@ -7,24 +12,24 @@
     margin-top: 1%;
 }
 
-.nav-icons-1 {
-    width: 50px;
-}
-
-.nav-icons-1 img {
-    width: 35px;
-    float: left;
-    padding: 3px;
-    margin: 2px;
-    margin-top: 5px;
-}
-
-.nav-icons-1 img:hover {
-    cursor: pointer;
-}
-
 .nav-logo {
-    width: 200px;
+    padding-left: 50px;
+}
+
+.nav-logo-img {
+    width: 62px;
+    margin-top: 0%;
+}
+
+.nav-name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+    color: #4428aa;
+    font-size: 40px;
+}
+
+.nav-name img{
+    width: 250px;
 }
 
 .nav-icons-2 {
@@ -45,7 +50,7 @@
 }
 
 .wishlist:hover {
-    background: rgb(211, 95, 95);
+    background: rgb(248, 68, 68);
     border-radius: 50%;
 }
 
@@ -99,6 +104,25 @@ form.nav-search-bar::after {
     margin: 2px;
 }
 
+.nav-icons-1 {
+    width: 50px;
+    padding-left: 10px;
+}
+
+.nav-icons-1 img {
+    width: 35px;
+    float: left;
+    padding: 3px;
+    margin: 2px;
+    margin-top: 5px;
+    color: white;
+}
+
+.nav-icons-1 img:hover {
+    cursor: pointer;
+}
+
+
 .nav-sections {
     background-color: #002E6E;
     border-radius: 5px;
@@ -106,15 +130,14 @@ form.nav-search-bar::after {
 }
 
 .sections {
-    margin-left: auto;
-    margin-right: auto;
     padding: 15px;
+    padding-left: 60px;
 }
 
 .sections a {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -125,15 +148,14 @@ form.nav-search-bar::after {
 
 /*Home Page Started*/
 
-.home-page-container {
-    background: whitesmoke;
-}
+
 
 .home-page {
     display: flex;
     height: 480px;
     padding: 50px;
-    padding-top: 30px;
+    padding-top: 5px;
+    margin-top: 0%;
 }
 
 .left-page {
@@ -236,6 +258,7 @@ form.nav-search-bar::after {
     font-weight: bold;
 
 }
+
 .card-btn {
     display: flex;
     justify-content: space-between;
@@ -259,7 +282,16 @@ form.nav-search-bar::after {
 }
 
 .para-item {
-    font-size: 30px;
+    font-size: 40px;
+}
+
+.font-text-size {
+    font-size: 20px;
+}
+
+.section-1-div {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .section-1 {
@@ -310,8 +342,23 @@ form.nav-search-bar::after {
 
 }
 
+.yt-vid {
+    width: 1250px;
+    height: 630px;
+    padding: 50px;
+    margin: 10px;
+
+}
+
+.iframe {
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
 h1 {
     font-size: 50px;
+
 }
 
 .product-para {
