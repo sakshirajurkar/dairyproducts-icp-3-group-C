@@ -423,6 +423,16 @@ h1 {
     margin-left: 85px;
 }
 
+.btn {
+    cursor: pointer;
+    background-color: rgb(190, 42, 5);
+    width: 20px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px white solid;
+}
 
 .margin {
     margin-left: 10px;
@@ -452,5 +462,10 @@ h1 {
 .designer {
     text-align: center;
     font: caption;
+}
+
+.subs-btn{
+    text-align: center;
+
 }
 
