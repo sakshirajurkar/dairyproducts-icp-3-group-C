@@ -1,0 +1,95 @@
+
+body{
+    background-image: url('./milk\ can\ bg\ img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'robot',sans-serif;
+}
+
+.signup-box{
+    width: 360px;
+    height: 630px;
+    margin: auto;
+    margin-right: 800px;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+.login-box{
+    width: 360px;
+    height: 390px;
+    margin: auto;
+    margin-top: 40px;
+    margin-right: 800px;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4{
+    text-align: center;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 300px;
+    height: 20px;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: 3px 3px 10px 3px grey;
+}
+
+.forgotbtn{
+    margin-left: 100px;
+    margin-top: 8px;
+    font-size: 17px;   
+}
+
+button{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:#0066ff;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px grey;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color:navy;
+    transition: 0.5s;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.para-2{
+    margin-right: 670px;
+}
+
+.signupherebtn{
+    font-size: 15px;
+    margin-left: 30px; 
+}
