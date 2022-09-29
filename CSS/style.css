@@ -55,43 +55,14 @@ body {
     border-radius: 50%;
 }
 
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-form.nav-search-bar input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-    background: #eef6fa;
-}
 
-form.nav-search-bar button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
-}
-
-form.nav-search-bar button:hover {
-    background: #0b7dda;
-}
-
-form.nav-search-bar::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 input[type=text] {
     width: 220px;
     box-sizing: border-box;
@@ -149,14 +120,16 @@ input[type=text] {
 
 .sections a {
     color: white;
+    font-size: 18px;
+    letter-spacing: .5px;
     text-decoration: none;
-    padding: px;
+    font-family: sans-serif;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.sections a:hover {
-    background-color: #111;
+.sections a:hover{
+    border-bottom: 2px rgb(175, 60, 7) solid;  
 }
 
 /*Home Page Started*/
@@ -201,6 +174,7 @@ input[type=text] {
     color: #002E6E;
     border: 2px solid #002E6E;
     background-color: transparent;
+    box-shadow: 0px 0px 4px 2px black;
 }
 
 .right-page {
@@ -263,7 +237,7 @@ input[type=text] {
 }
 
 .deal {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .offer-img {
@@ -273,7 +247,7 @@ input[type=text] {
     background-size: 100%;
     box-shadow: 0px 0px 8px 8px grey;
     border-radius: 10px;
-    animation: changeIcons 17s linear infinite;
+    animation: changeIcons 20s linear infinite;
 }
 
 @keyframes changeIcons {
@@ -463,10 +437,11 @@ h1 {
     font-size: 23px;
 }
 
+
 /*Footer*/
-
-
 .footer {
+    margin: 10px;
+    padding: 30px;
     display: flex;
     justify-content: space-around;
     
@@ -510,10 +485,73 @@ h1 {
     border-radius: 5px;
 }
 
-.social-handles {
-    display: flex;
-    justify-content: center;
+/*Socials*/
+
+.social-menu{
+    width: 440px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 11px;
 }
+
+.social-menu ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3px;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover{
+    color: #fff;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: rgba(0,0,0,0.829);
+}
+
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #e4405f;
+}
+
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #0077b5;
+}
+
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: #002E6E;
+}
+
+/*Social End*/
 
 .socials {
     width: 38px;
@@ -522,6 +560,7 @@ h1 {
 }
 
 .designer {
+    margin: 20px;
     text-align: center;
     font: caption;
 }
@@ -531,3 +570,157 @@ h1 {
 
 }
 
+/*Contact Us*/
+.contactus-container{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    background-size: cover;
+}
+
+.contactus-title{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contactus-title b{
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+}
+
+.contactus-title p{
+    font-weight: 300;
+    color: black;
+}
+
+.contact-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact-detail{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-icon-container{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contact-icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 22px;
+    cursor: pointer;
+    border: 2px black solid;
+}
+
+.contact-details{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contact-details b{
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.contact-msg{
+    width: 40%;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+form b{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contact-msg-input-box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-msg-input-box input
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
+.contact-msg-input-box textarea{
+    width: 100%;
+    height: 50px;
+    padding: 5px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contact-msg-input-box span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contact-msg-input-box input:focus ~ span,
+.contact-msg-input-box input:valid ~ span,
+.contact-msg-input-box textarea:focus ~ span,
+.contact-msg-input-box textarea:valid ~ span{
+    color: #757a75;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contact-msg-input-box input[type="submit"]{
+    width: 100px;
+    background: #002E6E;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.contact-msg-input-box input[type="submit"]:hover{
+    border: 2px solid #002E6E;
+    background-color: transparent;
+    color: #002E6E;
+    font-weight: 700;
+}
