@@ -28,7 +28,7 @@ body {
     font-size: 40px;
 }
 
-.nav-name img{
+.nav-name img {
     width: 250px;
 }
 
@@ -208,7 +208,7 @@ form.nav-search-bar::after {
     background-size: 100%;
     box-shadow: 0px 0px 8px 8px grey;
     border-radius: 10px;
-    animation: changeImage 10s linear infinite;
+    animation: changeImage 13s linear infinite;
 }
 
 @keyframes changeImage {
@@ -244,7 +244,48 @@ form.nav-search-bar::after {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.offer-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    padding: 50px;
+}
 
+.deal {
+    font-size: 25px;
+}
+
+.offer-img {
+    width: 600px;
+    height: 400px;
+    background-image: url("../Images/img/offer-amul.png");
+    background-size: 100%;
+    box-shadow: 0px 0px 8px 8px grey;
+    border-radius: 10px;
+    animation: changeIcons 17s linear infinite;
+}
+
+@keyframes changeIcons {
+    0% {
+        background-image: url("../Images/img/offer-choco.webp");
+    }
+
+    25% {
+        background-image: url("../Images/img/offer-different-cheeses.jpg");
+    }
+
+    50% {
+        background-image: url("../Images/img/offer-ice-cream.webp");
+    }
+
+    75% {
+        background-image: url("../Images/img/offer-paneer.png");
+    }
+
+    100% {
+        background-image: url("../Images/img/offer-set-curd.png");
+    }
+}
 
 
 .btn-1 {
