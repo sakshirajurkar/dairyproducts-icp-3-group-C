@@ -1,0 +1,48 @@
+body{
+    width: auto;
+
+}
+.product{
+  text-align: center;
+}
+.reviews{
+    font-size: 20px;
+}
+button{
+    width: 140px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:#0066ff;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px 1px grey;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color:navy;
+    transition: 0.5s;
+}
+.img{
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.img:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 5px grey;
+
+}
+.product{
+    border:none;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding-top: 15px;
+    box-shadow: 0px 0px 5px 7px grey;
+}
