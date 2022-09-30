@@ -21,6 +21,18 @@ background-color: rgb(233, 83, 115);
     margin-top: 40px;
     padding: 20px;
 }
+.AddToCard I{
+     margin-left: 20px;
+     width: 50px;
+     padding: 5px;
+     cursor: pointer;
+     color: black;
+}
+
+.color:hover{
+     background-color: rgb(248, 68, 68);
+     border-radius: 50%;
+}
 
 .img-card {
     width: 120px;
@@ -37,6 +49,7 @@ background-color: rgb(233, 83, 115);
     padding: 10px;
     text-align: center;
     height: 350px;
+    width: 250px;
 }
 
 .card:hover {
@@ -47,23 +60,15 @@ background-color: rgb(233, 83, 115);
 
 .btn-1 {
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #002E6E;
     border: none;
     color: white;
     font-size: 17px;
     cursor: pointer;
     font-weight: bold;
-    margin-left: 5px;
-
-}
-
-.card-btn {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
    
-    
+    width: 100%;
 }
 
 .btn-1:hover {
