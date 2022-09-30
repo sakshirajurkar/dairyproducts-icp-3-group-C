@@ -1,81 +1,109 @@
-.div-1 {
-    height: 310px;
-    width: 1250;
-    background-image: url(./../../Images/dairy-product.jpg);
-    padding: 20px;
-    padding-top: 30px;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 10px;
-    background-repeat: no no-repeat;
-    background-size: cover;
-    color: aliceblue;
+#heading {
+    text-align: center;
+}
+
+.card {
+    background-color: rgb(231, 231, 219);
+    background: transparent;
     border-radius: 10px;
-
-}
-.div-2 {
-    display: flex;
-    color: black;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color:#d1e0e0;
-    padding-top: 60px;
-    border-radius: 10px;
-
-}
-.div-3{
-    color: black;
-    background-image: url(./../../Images/p) ;
-    height: 250px;
-    width: 800px;
-    padding-top: 100px;
-    margin-bottom: 50px;
-    padding-left: 350px;
-    font-size: 30px;
-    color: azure;
-    border-radius: 10px;
-}
-.div-4{
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    border: 1px solid black;
-    padding-top: 60px;
-    
-}
-.card{
-    background-color: azure;
-    
-    border-radius: 15px;
-    box-shadow: 0px 0px 8px 8px #d1e0e0;
-    min-height: 200px;
-    min-width: 300px;
-    margin-bottom: 30px;
-}
-.container{
-    display:flex;
-    direction: row;
-    justify-content: space-evenly;
-    color: black;
-
-
-}
-.img-2{
-    width: 200px;
-    margin: 45px;
-    
-    border-radius:20px;
-    
-}
-.img-3{
-    width: 200px;
-    margin:45px;
-    height: 220px;
-    border-radius: 20px;
-    
-}
-
-.img-card{
+    border: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 380px;
+    text-align: center;
     margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    display: inline-block;
+    transition: 0.5s ease-in-out;
+    background:rgba(255, 255, 255, 0.25);
+    box-shadow:0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter:blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card:hover {
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 3px rgb(179, 171, 171);
+}
+
+.img {
+    width: 130px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 3px rgba(95, 94, 94, 0.767);
+    padding: 10px;
+}
+
+.name {
+    font-size: 25px;
+
+}
+
+.social-menu {
+    width: 440px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 11px;
+}
+
+.social-menu ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 7px;
+}
+
+.social-menu ul li .fab {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3px;
+    color: #000;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 0 5px 4px rgba(95, 94, 94, 0.767);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #e4405f;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #0077b5;
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #002E6E;
+}
+.para{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 21px;
+
 }
