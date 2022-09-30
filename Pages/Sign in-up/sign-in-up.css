@@ -1,6 +1,5 @@
 body{
     background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
         
 }
 
@@ -22,11 +21,14 @@ body{
     height: 480px;
     position: relative;
     margin: 6% auto;
-    background: transparent;
-    border-radius: 20px;
     padding: 5px;
     overflow: hidden;
-    box-shadow: 0 0 10px 3px black;
+    background:rgba( 255, 255, 255, 0.25 );
+    box-shadow:0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter:blur( 4px );
+    -webkit-backdrop-filter:blur( 4px );
+    border-radius:10px;
+    border:1px solid rgba( 255, 255, 255, 0.18 );
 }
 .login-form:hover{
     box-shadow: 0 0 25px 3px black;

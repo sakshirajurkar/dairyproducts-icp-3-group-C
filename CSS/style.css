@@ -487,42 +487,34 @@ h1 {
 /*Footer*/
 .footer {
     margin: 10px;
-    padding: 30px;
+    height: 300px;
+    padding: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
     display: flex;
-    justify-content: space-around;
     color: white;
-}
-
-.quick-links {
-    width: 300px;
 }
 
 .links {
-    text-decoration: none;
-    color: white;
+    margin: 10px;
+    width: 300px;
+    height: 245px;
 }
 
-.contact {
-    cursor: pointer;
+.links h2{
+    font-size: 20px;
 }
 
-.btn-container {
-    margin-left: 85px;
+.sub-links{
+    width: 200px;
+    height: 200px;
 }
 
-.btn {
-    cursor: pointer;
-    background-color: rgb(190, 42, 5);
-    width: 20px;
-    padding: 5px;
-    color: white;
+.sub-links a{
     font-size: 15px;
-    border-radius: 5px;
-    border: 2px white solid;
-}
-
-.margin {
-    margin-left: 10px;
+    font-weight: 700;
+    color: rgba(110, 109, 109, 0.979);
+    text-decoration: none;
 }
 
 .logo {
@@ -531,7 +523,7 @@ h1 {
 
 .subs {
     width: 290px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -548,19 +540,19 @@ h1 {
 .social-menu ul {
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 15px;
     display: flex;
 
 }
 
 .social-menu ul li{
     list-style: none;
-    margin: 0 15px;
+    margin: auto auto;
 }
 
 .social-menu ul li .fab{
     font-size: 30px;
-    line-height: 60px;
+    line-height: 50px;
     transition: .3px;
     color: #000;
 }
@@ -572,8 +564,8 @@ h1 {
 .social-menu ul li a{
     position: relative;
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: #fff;
     text-align: center;
@@ -629,8 +621,10 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: whitesmoke;
+    background: url('./../Images/img/Contact-Us.png');
+    background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 0;
 }
 
 .contactus-title{
@@ -689,24 +683,26 @@ h1 {
     color: black;
     flex-direction: column;
     font-weight: 300;
+    padding-top: 7px;
 }
 
 .contact-details b{
-    font-weight: 500;
+    font-size: 19px;
+    font-weight: 600;
     font-weight: bold;
 }
 
 .contact-msg{
     width: 40%;
     padding: 40px;
-    background: rgb(255, 255, 255);
+    background: transparent;
     border: 2px solid black;
     border-radius: 20px;
 }
 
 form b{
     font-size: 30px;
-    color: #333;
+    color: black;
     font-weight: 500;
 }
 
@@ -725,6 +721,7 @@ form b{
     border: none;
     border-bottom: 2px solid #333;
     outline: none;
+    background: transparent;
 }
 
 .contact-msg-input-box textarea{
@@ -736,6 +733,7 @@ form b{
     border-bottom: 2px solid #333;
     outline: none;
     resize: none;
+    background: transparent;
 }
 .contact-msg-input-box span{
     position: absolute;
@@ -745,14 +743,14 @@ form b{
     margin: 10px 0;
     pointer-events: none;
     transition: 0.5s;
-    color: #666;
+    color: black;
 }
 
 .contact-msg-input-box input:focus ~ span,
 .contact-msg-input-box input:valid ~ span,
 .contact-msg-input-box textarea:focus ~ span,
 .contact-msg-input-box textarea:valid ~ span{
-    color: #757a75;
+    color: rgba(0, 0, 0, 0.897);
     font-size: 12px;
     transform: translateY(-20px);
 }
