@@ -613,6 +613,9 @@ h1 {
     margin: 20px;
     text-align: center;
     font: caption;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
 .subs-btn{
@@ -774,7 +777,6 @@ form b{
     color: #002E6E;
     font-weight: 700;
 }
+/*Bottom*/
 
-
-/*Categories*/
 
