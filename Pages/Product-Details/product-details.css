@@ -1,0 +1,47 @@
+body{
+    width: auto;
+
+}
+.product{
+  text-align: center;
+}
+.reviews{
+    font-size: 20px;
+}
+button{
+    width: 350px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 20px;
+    border: none;
+    background-color: #002E6E;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px 1px grey;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+button:hover{
+    box-shadow: 0px 0px 4px 2px black;
+    color: aliceblue;
+}
+.img{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 0;
+}
+.img:hover{
+    border-bottom: 2px rgb(54, 52, 52) solid;
+}
+.product{
+    border:none;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 7px rgb(73, 69, 69);
+}
