@@ -13,6 +13,7 @@ body {
 
 .nav-logo {
     padding-left: 50px;
+    cursor: pointer;
 }
 
 .nav-logo-img {
@@ -29,6 +30,7 @@ body {
 .nav-name img {
     width: 250px;
 }
+
 .input-container{
     padding-left: 530px;
 }
@@ -61,7 +63,6 @@ body {
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 
 input[type=text] {
     width: 220px;
@@ -111,27 +112,66 @@ input[type=text] {
     background-color: #002E6E;
     border-radius: 5px;
     display: flex;
+    height: 50px;
 }
 
 .sections {
-    padding: 15px;
-    padding-left: 60px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
 }
 
 .sections a {
+    margin-left: 80px;
+    font-size: 20px;
     color: white;
-    font-size: 18px;
     letter-spacing: .5px;
     text-decoration: none;
     font-family: sans-serif;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
-.sections a:hover{
-    border-bottom: 2px rgb(175, 60, 7) solid;  
+.dropdown{
+    margin-left: 80px;
+    float: right;
+    overflow: hidden;
 }
 
+.dropdown .dropbtn{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: sans-serif;
+    margin-left: 10;
+}
+
+.sections a:hover , .dropdown:hover
+.dropbtn{
+    border-bottom: 2px rgb(175, 60, 7) solid; 
+}
+
+.dropdown-content{
+    padding-left: -200px;
+    display: none;
+    position: absolute;
+    background-color: rgba(235, 241, 247, 0.466);
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 /*Home Page Started*/
 
 .home-page {
@@ -234,6 +274,11 @@ input[type=text] {
     justify-content: space-evenly;
     margin-top: 60px;
     padding: 50px;
+}
+
+.offer-text{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .deal {
@@ -401,6 +446,7 @@ h1 {
     background-color: #7f91a3;
     box-shadow: 0 0 20px 2px black;
 }
+
 .product-container {
     padding: 10px;
     margin-top: 30px;
@@ -444,12 +490,16 @@ h1 {
     padding: 30px;
     display: flex;
     justify-content: space-around;
-    
+    color: white;
+}
+
+.quick-links {
+    width: 300px;
 }
 
 .links {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .contact {
@@ -528,7 +578,7 @@ h1 {
     background-color: #fff;
     text-align: center;
     transition: .6s;
-    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+    box-shadow: 0 0 5px 4px rgba(95, 94, 94, 0.767);
 }
 
 .social-menu ul li a:hover{
@@ -724,3 +774,7 @@ form b{
     color: #002E6E;
     font-weight: 700;
 }
+
+
+/*Categories*/
+
