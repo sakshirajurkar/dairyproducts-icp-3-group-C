@@ -1,6 +1,6 @@
 body {
-   
-background-color: rgb(233, 83, 115);
+
+    background-color: whitesmoke;
 
 }
 
@@ -21,17 +21,18 @@ background-color: rgb(233, 83, 115);
     margin-top: 40px;
     padding: 20px;
 }
-.AddToCard I{
-     margin-left: 20px;
-     width: 50px;
-     padding: 5px;
-     cursor: pointer;
-     color: black;
+
+.AddToCard I {
+    font-size: 25px;
+    width: 70px;
+    padding: 5px;
+    cursor: pointer;
+    color: black;
 }
 
-.color:hover{
-     background-color: rgb(248, 68, 68);
-     border-radius: 50%;
+.color:hover {
+    background-color: rgb(248, 68, 68);
+    border-radius: 50%;
 }
 
 .img-card {
@@ -44,7 +45,18 @@ background-color: rgb(233, 83, 115);
 
 
 .card {
-    background-color: white;
+    background:
+        white;
+    box-shadow:
+        0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter:
+        blur(4px);
+    -webkit-backdrop-filter:
+        blur(4px);
+    border-radius:
+        10px;
+    border:
+        1px solid rgba(255, 255, 255, 0.18);
     border-radius: 20px;
     padding: 10px;
     text-align: center;
@@ -67,7 +79,7 @@ background-color: rgb(233, 83, 115);
     font-size: 17px;
     cursor: pointer;
     font-weight: bold;
-   
+
     width: 100%;
 }
 
