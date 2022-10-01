@@ -582,11 +582,11 @@ h1 {
 }
 
 .social-menu ul li:nth-child(2) a:hover{
-    background-color: #e4405f;
+    background-color: #0077b5;
 }
 
 .social-menu ul li:nth-child(3) a:hover{
-    background-color: #0077b5;
+    background-color: #e4405f;
 }
 
 .social-menu ul li:nth-child(4) a:hover{
@@ -600,25 +600,6 @@ h1 {
     margin: 10px;
     cursor: pointer;
 }
-
-.designer {
-    margin: 20px;
-    text-align: center;
-    font: caption;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.designer  b{
-   font-size: 20px;
-   
-}
-
-.designer  a{
-    text-decoration: none;
-    color: #000;
-    
- }
 
 .subs-btn{
     text-align: center;
@@ -805,3 +786,29 @@ form b{
     cursor: pointer;
 }
 
+/*Bottom*/
+
+.designer {
+    margin: 20px;
+    text-align: center;
+    font: caption;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.designer  h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.designer  a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;  
+ }
+
+.bottom-img{
+    width: 20%;
+    cursor: pointer;
+}
