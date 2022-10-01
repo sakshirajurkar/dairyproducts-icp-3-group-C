@@ -1,6 +1,6 @@
 body{
     background-color: #FFDEE9;
-        
+    font-family: sans-serif; 
 }
 
 *{
@@ -16,6 +16,7 @@ body{
     background-size: cover;
     position: absolute;
 }
+
 .login-form{
     width: 380px;
     height: 480px;
@@ -30,37 +31,19 @@ body{
     border-radius:10px;
     border:1px solid rgba( 255, 255, 255, 0.18 );
 }
+
 .login-form:hover{
     box-shadow: 0 0 25px 3px black;
     border-radius: 20px;
 }
-.button-box{
-    width: 220px;
-    margin: 35px auto;
-    position: relative;
-    box-shadow: 0 0 20px 9px #ff61241f;
-    border-radius: 30px;
+
+.login-form h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
 }
-.toggle-btn{
-    padding: 10px 30px;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    outline: none;
-    position: relative;
-}
-#btn{
-    top: o;
-    left: 0;
-    position: absolute;
-    width: 110px;
-    height: 100%;
-    background: #7474BF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-radius: 30px;
-    transition: .5s;
-}
+
 
 /*Socials*/
 
@@ -129,6 +112,22 @@ body{
     width: 280px;
     transition: .5s;
 }
+
+.input-group p{
+    margin: 10px;
+    text-align: center;
+}
+
+.link{
+    text-align: center;
+}
+
+.link a{
+    color: #002E6E;
+    text-decoration: none;
+    font-size: 17px;
+}
+
 .input-file{
     font-size: 15px;
     width: 100%;
@@ -143,11 +142,11 @@ body{
 }
 
 .submit-btn{
+    margin: 30px;
     width: 85%;
     padding: 10px 30px;
     cursor: pointer;
     display: block;
-    margin: auto;
     background: #7474BF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -155,23 +154,20 @@ body{
     outline: none;
     border-radius: 30px;
 }
+
+.submit-btn a{
+    text-decoration: none;
+    color: #002E6E;
+    font-weight: 800;
+}
+
 .submit-btn:hover{
     background: none;
     border: 2px rgb(23, 23, 82) solid;
 }
-.check-box{
-    margin: 30px 10px 30px 0;
-}
-span{
-    color: #777;
-    font-size: 12px;
-    bottom: 68px;
-    position: absolute;
-}
+
 #login{
     left: 50px;
 }
-#register{
-    left: 450px;
-}
+
 
