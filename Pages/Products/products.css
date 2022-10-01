@@ -86,3 +86,21 @@ body {
     box-shadow: 0px 0px 4px 2px black;
     color: aliceblue;
 }
+.top-btn{
+    background-color: rgb(31, 29, 29);
+    color:white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 10px;
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+.top-btn:hover{
+    box-shadow: 0 0 4px 3px #002E6E;
+    cursor: pointer;
+}
