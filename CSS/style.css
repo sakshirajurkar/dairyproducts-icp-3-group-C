@@ -607,8 +607,18 @@ h1 {
     font: caption;
     display: flex;
     justify-content: space-evenly;
-    
 }
+
+.designer  b{
+   font-size: 20px;
+   
+}
+
+.designer  a{
+    text-decoration: none;
+    color: #000;
+    
+ }
 
 .subs-btn{
     text-align: center;
@@ -776,5 +786,22 @@ form b{
     font-weight: 700;
 }
 /*Bottom*/
-
+.top-btn{
+    background-color: white;
+    color:#01327c;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 10px;
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+.top-btn:hover{
+    box-shadow: 0 0 4px 3px black;
+    cursor: pointer;
+}
 
