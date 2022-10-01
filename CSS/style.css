@@ -601,25 +601,6 @@ h1 {
     cursor: pointer;
 }
 
-.designer {
-    margin: 20px;
-    text-align: center;
-    font: caption;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.designer  b{
-   font-size: 20px;
-   
-}
-
-.designer  a{
-    text-decoration: none;
-    color: #000;
-    
- }
-
 .subs-btn{
     text-align: center;
 
@@ -805,3 +786,29 @@ form b{
     cursor: pointer;
 }
 
+/*Bottom*/
+
+.designer {
+    margin: 20px;
+    text-align: center;
+    font: caption;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.designer  h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.designer  a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;  
+ }
+
+.bottom-img{
+    width: 20%;
+    cursor: pointer;
+}
