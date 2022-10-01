@@ -607,8 +607,8 @@ h1 {
 }
 
 /*Contact Us*/
-.contactus-container{
-    position: relative;
+
+.contact-container{
     min-height: 100vh;
     padding: 50px;
     display: flex;
@@ -619,95 +619,49 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0;
+
 }
 
-.contactus-title{
+.contact-title{
     max-width: 800px;
     text-align: center;
 }
 
-.contactus-title b{
-    font-size: 36px;
+.contact-title b{
+    font-size: 38px;
     font-weight: 500;
     color: black;
 }
 
-.contactus-title p{
-    font-weight: 300;
-    color: black;
-}
-
-.contact-container{
-    width: 100%;
+.contact-msgbox-info{
+    border: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+    justify-content: space-around;
+    width: 90%;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    
 }
 
-.contact-detail{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+.contact-msgbox{
+    width: 60%;
+    padding: 20px;
 }
 
-.contact-icon-container{
-    position: relative;
-    padding: 20px 0;
-    display: flex;
-}
-
-.contact-icon{
-    min-width: 60px;
-    height: 60px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    font-size: 22px;
-    cursor: pointer;
-    border: 2px black solid;
-}
-
-.contact-details{
-    display: flex;
-    margin-left: 20px;
-    font-size: 16px;
-    color: black;
-    flex-direction: column;
-    font-weight: 300;
-    padding-top: 7px;
-}
-
-.contact-details b{
-    font-size: 19px;
-    font-weight: 600;
-    font-weight: bold;
-}
-
-.contact-msg{
-    width: 40%;
-    padding: 40px;
-    background: transparent;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
-form b{
+.contact-msgbox-form b{
     font-size: 30px;
     color: black;
     font-weight: 500;
 }
 
-.contact-msg-input-box{
+.contact-msgbox-input-box{
     position: relative;
     width: 100%;
     margin-top: 10px;
 }
 
-.contact-msg-input-box input
-{
+.contact-msgbox-input-box input{
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
@@ -718,7 +672,11 @@ form b{
     background: transparent;
 }
 
-.contact-msg-input-box textarea{
+.contact-msgbox-input-box input::placeholder{
+    color: black;
+}
+
+.contact-msgbox-input-box textarea{
     width: 100%;
     height: 50px;
     padding: 5px 0;
@@ -729,28 +687,13 @@ form b{
     resize: none;
     background: transparent;
 }
-.contact-msg-input-box span{
-    position: absolute;
-    left: 0;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
-    pointer-events: none;
-    transition: 0.5s;
-    color: black;
+
+.contact-msgbox-input-box textarea::placeholder{
+    color: #000;
 }
 
-.contact-msg-input-box input:focus ~ span,
-.contact-msg-input-box input:valid ~ span,
-.contact-msg-input-box textarea:focus ~ span,
-.contact-msg-input-box textarea:valid ~ span{
-    color: rgba(0, 0, 0, 0.897);
-    font-size: 12px;
-    transform: translateY(-20px);
-}
-
-.contact-msg-input-box input[type="submit"]{
-    width: 100px;
+.contact-msgbox-input-box input[type="submit"]{
+    width: 150px;
     background: #002E6E;
     color: #fff;
     border: none;
@@ -760,12 +703,51 @@ form b{
     font-size: 18px;
 }
 
-.contact-msg-input-box input[type="submit"]:hover{
+.contact-msgbox-input-box input[type="submit"]:hover{
     border: 2px solid #002E6E;
-    background-color: transparent;
-    color: #002E6E;
+    box-shadow: 0 3px 5px 2px #000000;
     font-weight: 700;
 }
+
+
+.contact-info-container{
+    border-left: 2px black solid;
+    margin-top: 25px;
+    width: 30%;
+    padding: 20px;
+}
+
+.contact-info{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contact-info-icon{
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 22px;
+    cursor: pointer;
+    border: 2px black solid;
+
+}
+
+.contact-info-details{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+    padding-top: 8px;
+
+}
+
+
 /*Bottom*/
 .top-btn{
     background-color: white;
