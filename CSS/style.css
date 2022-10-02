@@ -794,3 +794,11 @@ h1 {
     width: 20%;
     cursor: pointer;
 }
+
+
+/* Responsive */
+
+@media screen and (min-width : 600px) and (max-width : 768px) 
+{
+    
+}
