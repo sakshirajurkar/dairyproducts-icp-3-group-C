@@ -1,5 +1,5 @@
 body{
-    background-color: #FFDEE9;
+    background-color: whitesmoke;
     font-family: sans-serif; 
 }
 
@@ -147,23 +147,22 @@ body{
     padding: 10px 30px;
     cursor: pointer;
     display: block;
-    background: #7474BF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #002E6E;
+    color: white;
     border: 0;
     outline: none;
     border-radius: 30px;
+    font-size: 15px;
 }
 
 .submit-btn a{
     text-decoration: none;
-    color: #002E6E;
+    color: white;
     font-weight: 800;
 }
-
 .submit-btn:hover{
-    background: none;
-    border: 2px rgb(23, 23, 82) solid;
+    box-shadow: 0px 0px 4px 2px black;
+    color: aliceblue;
 }
 
 #login{
