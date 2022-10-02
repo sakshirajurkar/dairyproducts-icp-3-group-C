@@ -36,14 +36,19 @@ h1{
     border-radius: 15px;
     margin: 10px 0 15px 0;
 }
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
 .btn{
-    width: 49%;
+    width: 44%;
     padding: 10px;
     border-radius: 15px;
     font-size: 18px;
     background-color: #002E6E;
     border: none;
     color: white;
+    margin-left: 20px;
 }
 .btn:hover{
     box-shadow: 0px 0px 7px 3px black;
