@@ -4,6 +4,13 @@ body {
 
 /* Navbar 1 */
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .navbar-1 {
     overflow: hidden;
     display: flex;
@@ -55,13 +62,6 @@ body {
 .wishlist:hover {
     background: rgb(248, 68, 68);
     border-radius: 50%;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 input[type=text] {
@@ -798,7 +798,52 @@ h1 {
 
 /* Responsive */
 
-@media screen and (min-width : 600px) and (max-width : 768px) 
+@media screen and (max-width : 600px) 
 {
+    .input-container{
+       display: flex;
+       flex-direction: row;
+    }
     
+    .nav-icons-2 {
+        width: 150px;
+        padding-left: 10px;
+    }
+    
+    .nav-icons-2 img {
+        width: 35px;
+        padding: 3px;
+        margin: 2px;
+        margin-top: 5px;
+    
+    }
+    
+    .nav-icons-2 img:hover {
+        cursor: pointer;
+    }
+    
+    .wishlist:hover {
+        background: rgb(248, 68, 68);
+        border-radius: 50%;
+    }
+    
+    input[type=text] {
+        width: 220px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+    
+      }
+      
+      input[type=text]:focus {
+        width: 100%;
+      }
+     
 }
